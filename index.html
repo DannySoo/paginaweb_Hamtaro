@@ -1,0 +1,133 @@
+<!-- Indicar el tipo de archivo que se hará: -->
+<!DOCTYPE html> 
+
+<!-- Página en idioma "español": -->
+<html lang="es"> 
+    <head>
+        <!-- Línea para poder usar todos los carácteres del idioma. -->
+        <meta charset = "UTF-8">
+
+        <!-- Título de la página web. -->
+        <title>
+            Hamster's Page!
+        </title>
+        <!-- Ligando el archivo CSS al HTML para poder editar el estilo de la página:-->
+        <link href="style.css" rel="stylesheet">
+        <link href="link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">"
+    </head>
+
+
+    <header>
+        <!-- Encabezado de la página: -->
+        <h1> El club de los Ham Hams.</h1> 
+
+        <!--Colocar un subtítulo:-->
+        <h2>"¡Hamtaro! Panda, Cerebrin, Gran Jefe...".</h2>
+    </header>
+
+
+    <body>
+        <!-- Agregar imagen:-->
+        <h3>¡Conoce al equipo más grande y pequeño de todos!</h3>
+
+        <!-- Primera forma de agregar imagen: Agregar desde Internet.-->
+        <img src="https://i.ytimg.com/vi/OgaBeBMIhek/maxresdefault.jpg">
+        <br>
+        <!-- Segunda forma de agregar imagen: Agregar desde mi computadora.-->
+        <img src="imagenes/ColitasyHamtaro.jpg">
+
+        <!-- Creando una lista: -->
+        <h3>¿Quiénes están en el Club de los Ham Hams?</h3>
+        <p>Los siguientes hámsters forman parte del Club de los
+
+        <!-- Poner letra en negrita resaltando la palabra: -->
+        <strong>Ham Hams</strong></p> 
+
+        <!-- Haciendo lista ordenada, con números: -->
+        <ol>
+            <li>Hamtaro.</li>
+            <li>Bocadín.</li>
+            <li>Gran Jefe, el líder. </li>
+            <li>Colitas.</li>
+            <li>Pashmina.</li>
+        </ol>
+
+        <!-- Haciendo lista desordenada, con viñetas: -->
+            <!-- <i> Sirve para poner una palabra o frase en cursiva.  -->
+        <p>¿Qué hacen los Ham Hams? Hacen <i>travesuras</i>, como:</p>
+        <ul>
+            <li>Jugar con los demás animales.</li>
+            <li>Esconder cosas.</li>
+            <li>Irse a explorar lugares fuera de casa.</li>
+            <li>Viajar en la mochila de Laura.</li>
+        </ul>
+
+        <!--Enlaces externos: Al darle click al enlace cargará la página en la misma pestaña. 
+            Para mandarlo a una nueva pestaña, se usa el atributo "target"-->
+        <p>¿Quieres saber cómo suena su intro? 
+            <a href="https://youtu.be/qz9RTb9w3mk" target="_blank">
+                Da <i>click</i> aquí.</a>
+        </p>
+
+        <!--Creación de formularios:-->
+        <!--Formulario con botones de radio.-->
+        <h3>Formularios</h3>
+        <p>Si tuvieras un hámster, o en caso de que ya lo tengas, ¿Crees que se uniría a los Ham Hams?</p>
+       
+        <label>
+            <!--Las respuestas tendrán para seleccionar una sola opción. En la página aparecerán una al lado de la otra. 
+            Para solucionar eso se usa un salto de línea <br>-->
+
+            <input id="Afirmación" 
+            type="radio" 
+            value="Afirmación" 
+            name="TuHamster"> Si
+        </label>
+        <br>
+        <label>
+            <input id="Negación" 
+            type="radio" 
+            value="Negación" 
+            name="TuHamster"> No
+        </label> 
+
+        <p>¿Qué hámster te gustaría tener?</p>
+        <label>
+            <input id="Hamster1"
+            type="checkbox"
+            value="Hamster1"
+            name="personalidad"
+            checked> Ruso enano
+        </label>
+        <br>
+        <label>
+            <input id="Hamster2"
+            type="checkbox"
+            value="Hamster2"
+            name="personalidad"> Roborowski
+        </label>
+        <br>
+        <label>
+            <input id="Hamster3"
+            type="checkbox"
+            value="Hamster3"
+            name="personalidad"> Dorado
+        </label>
+        <br>
+        <label>
+            <input id="Hamster4"
+            type="checkbox"
+            value="Hamster4"
+            name="personalidad"> Enano de Campbell
+        </label>
+    </body>
+
+    <footer>
+        <p><small>Esta página fue creada durante el bootcamp de 
+            <a href="https://tecnolochicas.mx/" target="_blank">
+            <strong>Tecnolochicas PRO.</strong> </small></p>
+    </footer>
+</html> 
+

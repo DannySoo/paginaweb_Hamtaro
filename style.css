@@ -1,0 +1,31 @@
+body{
+    /*Color de fondo de la página:*/
+    background-color:#edab3d;
+    /*Color de la letra:*/
+    color:#3e150d; 
+    /*tipo de fuente: */
+    font-family:'Nunito Sans', sans-serif;;
+}
+
+/*Cambiar estilo de aquellas oraciones con "h1" y de párrafo "p":*/
+h1, p{
+    color:#8b4b23;
+}
+
+h3{
+    font-size: 20px;
+}
+
+img{
+    /*Características de una imagen:*/
+    width: 200px; /*Ancho*/
+    height: 100px; /*Altura*/
+    /* border-style: dotted; */
+    border: 2px dashed rgb(77, 51, 7); /*Borde de las imágenes*/
+    padding: 5px; /*Espacio entre el borde y la imagen*/
+    margin: 10px; /*Centrar o mover la imagen*/
+}
+
+a{
+    color:#1d518d;
+}
